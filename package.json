@@ -4,7 +4,7 @@
   "description": "server for accepting and sharing RESTful APIs",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon server.js ",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client "
   },
   "author": "hemant",
